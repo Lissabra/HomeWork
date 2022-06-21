@@ -1,0 +1,36 @@
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 500px;
+    display: table;
+}
+.tr {
+    display: table-row;
+}
+.td, .th {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.th {
+    background: url(images/2018-06-21_101716.png);
+    color: goldenrod;
+    font-weight: bold;
+}
+.odd .td:nth-child(odd),
+.even .td:nth-child(even) {
+    background: url(images/23740f6da82fc1bb36a83368531af0b2.jpeg);
+}
+.even .td:nth-child(odd),
+.odd .td:nth-child(even) {
+    background: url(images/df35dab7d4f5547325793fe2a1b20cec.jpeg);
+}
+.start {
+    background: yellow !important;
+}
+.finish {
+    background: red !important;
+}
